@@ -18,7 +18,7 @@
     --background-secondary: oklch(0.16 0.015 230);
     --ribbon-background: oklch(0.16 0.015 230);
     --titlebar-background-focused: oklch(0.16 0.015 230);
-    --dropdown-background: oklch(0.78 0.25 30 / 30%);
+    --dropdown-background: oklch(0.6285 0.1016 228.26);
 
     /* Callouts r, g, b */
     --callout-caution: 255, 199, 102;
