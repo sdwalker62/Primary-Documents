@@ -1,0 +1,8 @@
+
+| Aspect                     | Strengths                                                                 | Weaknesses                                                                                   |
+|----------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| **Probabilistic Assignments** | • Captures uncertainty by giving each point a membership distribution.<br>• Reflects real-world overlap between clusters. | • Requires a suitable probability model (e.g., Gaussian).<br>• May overfit if model assumptions fail. |
+| **Boundary Flexibility**      | • Handles overlapping clusters smoothly.<br>• Avoids hard “all-or-nothing” decisions.                | • Harder to translate memberships into crisp labels.<br>• Can complicate downstream decisions.     |
+| **Noise & Outlier Handling**   | • Soft assignments can dilute the impact of noisy points.<br>• Can assign low weight to outliers.      | • Outliers may still skew membership distributions.<br>• Weak separation when clusters are ill-defined. |
+| **Parameter Sensitivity**      | • Model-based methods (e.g., GMM) allow incorporation of priors/regularization.                     | • Initialization (e.g., EM seeds) strongly affects outcomes.<br>• Must choose number of clusters in advance. |
+| **Computational Cost**         | • EM-style fitting often converges reliably to a local optimum.                                     | • EM iterations can be slow on large/high-dimensional data.<br>• More expensive than k-means.         |

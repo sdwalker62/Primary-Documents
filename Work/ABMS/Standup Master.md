@@ -1,0 +1,28 @@
+#6/17/2025 
+
+- Follow on effort from contract from last year to prove out some basic ML capabilities
+	- Kick off in July
+	- Focus on pattern of life identification and classification
+	- Talk to Lt. Beem (sp?) about who on RAFT we should be talking to
+- CBC2 Roadmap Note
+	- Colonel Zaal (sp?)
+		- Worked on a foundational model
+		- Located in Nevada
+		- Focused on C2 efforts 
+		- Works on a DASH events? 
+			- 2 week event that works with operators to build tools that help with C2 work
+			- Two attendees (Dr. Stringer and someone who is familiar with UCI (?))
+			- https://www.dvidshub.net/news/500681/air-force-dash-sprint-pioneers-human-machine-teaming-faster-battle-management-decisions
+		- Related to AFRL (may not be part of their organization)
+- *Action Item*: Send presentation notes to team on chain of thought research
+	- Probably should be related to code generation but maybe a general approach is acceptable
+- End of Q2
+	- Two reports on code generations
+	- Use cases for phase 2 raft (**delivered**)
+	- AI roadmap (**delivered**)
+- Phase 3
+	- Get the use cases spun up and monitor
+	- Research code generations and test generations
+- **Sherlock dataset for pattern of life?
+	- Problem that existed in phase 1 (still a problem (data starvation))
+- 

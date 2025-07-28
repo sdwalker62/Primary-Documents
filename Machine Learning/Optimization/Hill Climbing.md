@@ -1,0 +1,7 @@
+* Taboo search keeps track of places you have already been and restarts the search when encountering one of these locations.
+* When your step size is too small, you risk getting stuck on flat areas. For instance if you are climbing and encounter a shoulder, then if your step size is too small, you will wander the shoulder instead of making progress. 
+* With a really large step size you encounter other pitfalls:
+	1. You can miss optimal completely by jumping over them
+	2. It is possible to alternate back and forth forever in certain situations. For instance if there is an isolated peak and we begin on one side, a large step size could jump the peak and land on the other side of the peak. We would then process another step of the algorithm and return to roughly our original location, performing this oscillation indefinitely. 
+* Since we can easily pick a step size that is too large or too small, we will start with one and move to the other. It is much better to start with a large step size and decrease it upon each iteration. Doing so will allow us to move to more promising areas quickly, while preventing oscillations due to a decreasing step size. This process is called [[Machine Learning/Optimization/Simulated Annealing]].
+* 

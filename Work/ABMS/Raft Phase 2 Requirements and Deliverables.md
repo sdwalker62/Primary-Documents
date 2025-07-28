@@ -1,0 +1,16 @@
+
+- Dr. Stringer is attending the DASH event in-person.
+	- amanda.szczublewski@us.af.mil is the POC for that effort and event
+- Going to talk today about what we are hoping to get out of this and craft open requirements and deliverables
+	- Nick reached out to Lt. Bean (sp?) and she responded
+		- Pete is Nick's finance guy
+	- C3BM matched money from AFRL(?) (~a few hundred k).
+		- We are not sure that we are able to get that money again
+		- Because of this we might need to descope our efforts
+		- RAFT comes back with a list of COA given the provided funding and the CBC2 team chooses which one the want to pursue
+			- RAFT is relatively hands-off
+		- That will likely fund a single person for a few months at most
+- We will be operating at the CUI level
+- Need to identify what an anomaly is before we can start tracking them!
+- ==Do a write-up on your findings of the plane==
+- 

@@ -1,0 +1,12 @@
+- Weka is a storage class for new pods to be provisioned
+	-  Apply a quota that defines what the pods can access
+- Can setup a shared file system to a pod or a set of pods
+	- Can leverage for the Weka client that can quickly provision that data
+- WEKA can handle:
+	- PII
+	- Working HIPPA
+- Get the NIX information for Weka
+- Mellanox and Broadcom NIX
+- Minimum of 6 NVMEs in 6 physical workstations
+	- Can be on the GPU server
+- 

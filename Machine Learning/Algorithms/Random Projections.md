@@ -1,0 +1,8 @@
+
+| **Strengths**                                                                              | **Weaknesses**                                                                                                                     |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Provable distance preservation** (Johnson–Lindenstrauss lemma guarantees low distortion) | **Approximate**—distances are only preserved up to a small error, which may impact downstream tasks if target dimension is too low |
+| **Computationally efficient**—just a matrix multiply \mathcal{O}(d\,m)                     | **Dimension choice**—selecting the right projected dimension m requires balancing accuracy vs. speed and is often heuristic        |
+| **Data-independent**—no need to compute costly SVD/PCA; uses random matrices               | **Non-deterministic**—different random seeds yield different embeddings; results may lack reproducibility without fixed seeds      |
+| **Scales to very high dimensions**—memory- and time-efficient for extreme d                | **Information loss**—features are “mixed” randomly; important directions can be blurred or lost                                    |
+| **Easy to implement and parallelize**—trivially distributed across cores/GPU threads       | **Not data-adaptive**—cannot exploit intrinsic data structure (e.g., clusters, manifolds) as PCA or learned embeddings can         |

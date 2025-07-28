@@ -1,0 +1,24 @@
+
+- Data is ingested from the aircraft as a binary file blob
+	- **SAE AS7140**: `BIN`
+	- Immediately stored in AWS glacier
+- Decode data (un-compress)
+	- **SAE AS7140**: `JSON` `CSV`
+		- Currently a `CSV` because the Boeing program produces `CSV` files
+	- Likely uses a proprietary decoder from the OEM
+	- Uses parallel lambda functions for pipeline speed-ups
+- Map reduce
+- Filter/cleanse
+- Metadata Transform
+	- **Digital ICD**
+- Aggregate/Append
+- Compress (Lakehouse)
+	- **SAE AS7140**: `parquet`
+	- Stored in DeltaLake for other DoD customers
+
+- SAE-HM-1R Committee "*Integrated Vehicle Health Management for Rotorcraft*"
+- TENET3 is on contract until August 
+	- Built on *Metra* TENET3 contractor owned and managed resources
+	- [Tenet3](https://tenet3.com/solutions.html)
+	- Uses `*.snappy.parquet` files
+- 

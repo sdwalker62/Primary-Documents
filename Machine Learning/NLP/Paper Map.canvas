@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"1c1d6b78f247e15f","type":"file","file":"Machine Learning/NLP/Chain-of-Thought Prompt Elicits Reasoning in Large Language Models.md","x":-157,"y":-118,"width":400,"height":400},
+		{"id":"d69eee2efc287847","type":"file","file":"Machine Learning/NLP/Large Language Models are Zero-Shot Reasoners.md","x":620,"y":-118,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"c86bf3d6e9997a3f","fromNode":"1c1d6b78f247e15f","fromSide":"right","toNode":"d69eee2efc287847","toSide":"left","label":"Expands on by considering \nzero-shot behavior"}
+	]
+}
